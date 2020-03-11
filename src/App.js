@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="tc">
-      <h1>RoboFriends</h1>
+      <h1 className="f1">RoboFriends</h1>
       <Searchbox onSearchChange={onSearchChange}/>
       <CardList robots={robots}/>
     </div>
