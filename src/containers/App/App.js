@@ -22,7 +22,6 @@ function App(props) {
   //   setSearchValue(value);
   // }
 
-  console.log(props)
   if(robots.length===0){
     return <h1 className="tc">Loading...</h1>
   }else{
